@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Spotify - Playlist</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <header class="sidebar">
+        <h1 class="logo">Mini Spotify</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h2 id="playlistName">Playlist</h2>
+        <div id="songContainer" class="song-list">
+            <!-- Songs will be loaded here -->
+        </div>
+
+        <!-- Audio Player -->
+        <audio id="audioPlayer" controls style="width:100%; margin-top:20px;">
+            Your browser does not support the audio element.
+        </audio>
+    </main>
+
+    <script src="js/playlist.js"></script>
+</body>
+
+</html>
